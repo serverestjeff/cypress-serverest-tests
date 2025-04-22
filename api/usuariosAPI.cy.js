@@ -4,7 +4,7 @@ describe('Usuários API', () => {
       cy.request('POST', 'https://serverest.dev/usuarios', {
         nome: 'Usuário API',
         email: `api${random}@email.com`,
-        password: '123456',
+        password: '130724',
         administrador: 'true'
       }).then((res) => {
         expect(res.status).to.eq(201)
